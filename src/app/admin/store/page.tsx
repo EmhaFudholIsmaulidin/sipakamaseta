@@ -18,6 +18,7 @@ export default async function Page() {
             },
         })
         revalidatePath('/admin/store')
+        revalidatePath('/store')
     }
 
     async function unpublishPost(userData: FormData) {
