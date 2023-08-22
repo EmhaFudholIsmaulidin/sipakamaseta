@@ -36,7 +36,7 @@ export default function RootLayout({
       </head>
       <body className={poppins.className} >{children} 
       
-      <footer className='bg-gray-500 lg:p-5 static mx-auto w-screen'>
+      <footer className='bg-gray-500 p-8 sm:p-0 static mx-auto w-screen'>
         <div className='flex flex-col sm:flex-row items-center justify-between sm:mx-auto sm:max-w-6xl'>
           <div className=' text-white mt-3 items-center text-center sm:text-left'>
             <Image 
