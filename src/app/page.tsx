@@ -16,7 +16,7 @@ export default async function Home() {
           <div className='sm:flex sm:flex-row sm:max-w-full lg:justify-center overflow-hidden'>
               <Image 
                 className='-mx-16 float-left lg:float-none'
-                src="/sekcamnobg.png" 
+                src="/Sekcamnobg.png" 
                 width={280}
                 height={400}
               
