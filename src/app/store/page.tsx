@@ -22,7 +22,7 @@ export default async function Page() {
         <div className="min-h-screen">
             {/* navbar & search box */}
             <div className="flex flex-row m-3 items-center gap-3 justify-between">
-                <input className="bg-gray-100 rounded-md w-2/3 sm:w-1/3 sm:mx-auto" type="text" placeholder='Cari Barang' />
+                <input className="bg-gray-100 rounded-md w-2/3 sm:w-1/3 sm:mx-auto hidden" type="text" placeholder='Cari Barang' />
                 <Link href="/store/addItem" passHref>
                     <FaPlus className='w-6 h-6'></FaPlus>
                 </Link>
